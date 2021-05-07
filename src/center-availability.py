@@ -63,7 +63,6 @@ headers = {
 count = 0
 while count == 0:
     district_data = make_request(district_id,date,headers)
-    print(district_data.content)
 
     shortlisted_center = []
 
