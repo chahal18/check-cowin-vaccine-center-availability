@@ -38,7 +38,7 @@ def make_request(district_id,date,headers):
         print('Try again!')
 
 district_id = input("Enter the district id: ")
-date = input("Enter the date for which center availability's haas to be checked (format: DD-MM-YYYY -> 08-05-2021 ): ")
+date = input("Enter the date for which center availability's has to be checked (format: DD-MM-YYYY -> 08-05-2021 ): ")
 min_age_booking = int(input("Enter your age in years (example -> 20): "))
 minimum_slots = int(input("Enter center's minimum available_capacity in numbers (example -> 3): "))
 enable_auto_refresh = int(input("Enable auto refresh if center available count? Enter 1 for 'yes' and 0 for 'no': "))
