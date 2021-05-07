@@ -1,13 +1,13 @@
 import requests, json, tabulate, copy, os
 from time import sleep
 
-def filter_center(district_data,min_age_booking,minimum_slots):
+def filter_center(district_data,date,min_age_booking,minimum_slots):
     options = []
 
     if len(district_data['centers']) >= 0:
         for center in district_data['centers']:
             for session in center['sessions']:
-                if (session['available_capacity'] >= minimum_slots) and (session['min_age_limit'] <= min_age_booking):
+                if (session['date'] == date and session['available_capacity'] >= minimum_slots) and (session['min_age_limit'] <= min_age_booking):
                     out = {
                         'name': center['name'],
                         'district': center['district_name'],
@@ -68,7 +68,7 @@ while count == 0:
     shortlisted_center = []
 
     district_data = district_data.json()
-    shortlisted_center = filter_center(district_data, min_age_booking,minimum_slots)
+    shortlisted_center = filter_center(district_data,date,min_age_booking,minimum_slots)
     if len(shortlisted_center) > 0:
         display_table(shortlisted_center)
         os.system('say -v Alex "Available Center Count - {}"'.format(str(len(shortlisted_center))))
