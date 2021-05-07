@@ -1,4 +1,5 @@
 import requests, json, tabulate, copy, os
+from time import sleep
 
 def filter_center(district_data,min_age_booking,minimum_slots):
     options = []
@@ -76,3 +77,4 @@ while count == 0:
 
     if enable_auto_refresh == 0 or len(shortlisted_center) > 0:
         break
+    sleep(30)
