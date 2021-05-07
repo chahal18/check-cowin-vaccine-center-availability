@@ -15,4 +15,5 @@ If `auto-refresh` is enabled then center's availability will be checked every 30
 
 Clone the repo and start helping each other. 
 
-![image](https://user-images.githubusercontent.com/16899332/117496733-160ef900-af95-11eb-89c8-9dac40b69935.png)
+![image](https://user-images.githubusercontent.com/16899332/117498065-e7921d80-af96-11eb-9fb4-c9de094b513f.png)
+
