@@ -17,3 +17,6 @@ Clone the repo and start helping each other.
 
 ![image](https://user-images.githubusercontent.com/16899332/117498065-e7921d80-af96-11eb-9fb4-c9de094b513f.png)
 
+Pick `district_id` from `district_codes.csv`
+
+![image](https://user-images.githubusercontent.com/16899332/117498214-21632400-af97-11eb-8c3e-18be69262aed.png)
