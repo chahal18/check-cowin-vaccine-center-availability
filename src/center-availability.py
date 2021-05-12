@@ -79,4 +79,4 @@ if __name__ == '__main__':
     
         if enable_auto_refresh == 0 or len(shortlisted_center) > 0:
             break
-        sleep(30)
+        sleep(4)
