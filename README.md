@@ -6,12 +6,12 @@ This repo is created for finding the center availablity based on parameters like
   3. minimum age limit 
   4. minimum slot
 
-The `center-availability.py` is the main script which will find the center for you. But for feeding the required data to it, you have to run `fetch_district_id.py` script which will update the csv file `district_codes.csv` for you to have fresh state and district id. You would be required to provide the 'district_id' for your district. 
+The `center-availability.py` is the main script which will find the center for you. But for feeding the required data to it, you have to run `fetch_district_id.py` script which will update the csv file `district_codes.csv` for you to have fresh state and district id. You would be required to provide the `district_id` for your district. 
 
 Example: For `Gurgaon`, `district_id` is `188`.
 
 
-If `auto-refresh` is enabled then center's availability will be checked every 30th second. 
+If `auto-refresh` is enabled then center's availability will be checked every 4th second. 
 
 Clone the repo and start helping each other. 
 
