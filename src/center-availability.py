@@ -77,6 +77,6 @@ if __name__ == '__main__':
         else:
             print('No center available')
     
-        if enable_auto_refresh == 0 or len(shortlisted_center) > 0:
+        if enable_auto_refresh == 0:
             break
         sleep(4)
